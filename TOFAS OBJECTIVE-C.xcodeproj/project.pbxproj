@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E17822B627ECD00E7AE94 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E17802B627ECD00E7AE94 /* MainTableViewCell.m */; };
+		040E17832B627ECD00E7AE94 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E17812B627ECD00E7AE94 /* MainTableViewCell.xib */; };
+		04C54A842B6236B10064DEB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54A832B6236B10064DEB2 /* AppDelegate.m */; };
+		04C54A872B6236B10064DEB2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54A862B6236B10064DEB2 /* SceneDelegate.m */; };
+		04C54A8A2B6236B10064DEB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54A892B6236B10064DEB2 /* ViewController.m */; };
+		04C54A8D2B6236B10064DEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C54A8B2B6236B10064DEB2 /* Main.storyboard */; };
+		04C54A8F2B6236B20064DEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C54A8E2B6236B20064DEB2 /* Assets.xcassets */; };
+		04C54A922B6236B20064DEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C54A902B6236B20064DEB2 /* LaunchScreen.storyboard */; };
+		04C54A952B6236B20064DEB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54A942B6236B20064DEB2 /* main.m */; };
+		04C54AA22B6239320064DEB2 /* APICall.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54AA12B6239320064DEB2 /* APICall.m */; };
+		04C54AA82B623EDD0064DEB2 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54AA72B623EDD0064DEB2 /* TableViewModel.m */; };
+		04C54AAD2B6241860064DEB2 /* PostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C54AAC2B6241860064DEB2 /* PostModel.m */; };
+		3EFEE9BE53E9C9595CCFDDD0 /* Pods_TOFAS_OBJECTIVE_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390B505C224A71C5F524B4F1 /* Pods_TOFAS_OBJECTIVE_C.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040E177F2B627ECD00E7AE94 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		040E17802B627ECD00E7AE94 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		040E17812B627ECD00E7AE94 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		04C54A7F2B6236B10064DEB2 /* TOFAS OBJECTIVE-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TOFAS OBJECTIVE-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C54A822B6236B10064DEB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C54A832B6236B10064DEB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C54A852B6236B10064DEB2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04C54A862B6236B10064DEB2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04C54A882B6236B10064DEB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C54A892B6236B10064DEB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04C54A8C2B6236B10064DEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C54A8E2B6236B20064DEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C54A912B6236B20064DEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C54A932B6236B20064DEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C54A942B6236B20064DEB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C54AA12B6239320064DEB2 /* APICall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APICall.m; sourceTree = "<group>"; };
+		04C54AA72B623EDD0064DEB2 /* TableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
+		04C54AA92B623F400064DEB2 /* APICall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APICall.h; sourceTree = "<group>"; };
+		04C54AAB2B6241530064DEB2 /* PostModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostModel.h; sourceTree = "<group>"; };
+		04C54AAC2B6241860064DEB2 /* PostModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostModel.m; sourceTree = "<group>"; };
+		04C54AAE2B6248B60064DEB2 /* TableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		06DEB243D66218C275F340BB /* Pods-TOFAS OBJECTIVE-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOFAS OBJECTIVE-C.debug.xcconfig"; path = "Target Support Files/Pods-TOFAS OBJECTIVE-C/Pods-TOFAS OBJECTIVE-C.debug.xcconfig"; sourceTree = "<group>"; };
+		390B505C224A71C5F524B4F1 /* Pods_TOFAS_OBJECTIVE_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOFAS_OBJECTIVE_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4761C1559E9F4FC51DF74F5D /* Pods-TOFAS OBJECTIVE-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOFAS OBJECTIVE-C.release.xcconfig"; path = "Target Support Files/Pods-TOFAS OBJECTIVE-C/Pods-TOFAS OBJECTIVE-C.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C54A7C2B6236B10064DEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFEE9BE53E9C9595CCFDDD0 /* Pods_TOFAS_OBJECTIVE_C.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040E177E2B627EB400E7AE94 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				040E177F2B627ECD00E7AE94 /* MainTableViewCell.h */,
+				040E17802B627ECD00E7AE94 /* MainTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		04C54A762B6236B10064DEB2 = {
+			isa = PBXGroup;
+			children = (
+				04C54A812B6236B10064DEB2 /* TOFAS OBJECTIVE-C */,
+				04C54A802B6236B10064DEB2 /* Products */,
+				22F1096B5D5F2389332553E1 /* Pods */,
+				A41074B42023B6C4656AF7E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C54A802B6236B10064DEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C54A7F2B6236B10064DEB2 /* TOFAS OBJECTIVE-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C54A812B6236B10064DEB2 /* TOFAS OBJECTIVE-C */ = {
+			isa = PBXGroup;
+			children = (
+				04C54AA62B623EB70064DEB2 /* ViewModels */,
+				04C54A9F2B62390E0064DEB2 /* Model */,
+				04C54A9B2B6236F30064DEB2 /* Supporting Files */,
+				04C54A9D2B6237140064DEB2 /* Ui */,
+				04C54A932B6236B20064DEB2 /* Info.plist */,
+			);
+			path = "TOFAS OBJECTIVE-C";
+			sourceTree = "<group>";
+		};
+		04C54A9B2B6236F30064DEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C54A822B6236B10064DEB2 /* AppDelegate.h */,
+				04C54A832B6236B10064DEB2 /* AppDelegate.m */,
+				04C54A852B6236B10064DEB2 /* SceneDelegate.h */,
+				04C54A862B6236B10064DEB2 /* SceneDelegate.m */,
+				04C54A8E2B6236B20064DEB2 /* Assets.xcassets */,
+				04C54A902B6236B20064DEB2 /* LaunchScreen.storyboard */,
+				04C54A942B6236B20064DEB2 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C54A9C2B6237040064DEB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C54A882B6236B10064DEB2 /* ViewController.h */,
+				04C54A892B6236B10064DEB2 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04C54A9D2B6237140064DEB2 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				040E177E2B627EB400E7AE94 /* TableViewCell */,
+				04C54A9C2B6237040064DEB2 /* ViewControllers */,
+				04C54A9E2B62371E0064DEB2 /* Views */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		04C54A9E2B62371E0064DEB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				040E17812B627ECD00E7AE94 /* MainTableViewCell.xib */,
+				04C54A8B2B6236B10064DEB2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04C54A9F2B62390E0064DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C54AAA2B6241380064DEB2 /* Entity */,
+				04C54AA02B6239130064DEB2 /* Repo */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C54AA02B6239130064DEB2 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				04C54AA12B6239320064DEB2 /* APICall.m */,
+				04C54AA92B623F400064DEB2 /* APICall.h */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		04C54AA62B623EB70064DEB2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04C54AA72B623EDD0064DEB2 /* TableViewModel.m */,
+				04C54AAE2B6248B60064DEB2 /* TableViewModel.h */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04C54AAA2B6241380064DEB2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				04C54AAB2B6241530064DEB2 /* PostModel.h */,
+				04C54AAC2B6241860064DEB2 /* PostModel.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		22F1096B5D5F2389332553E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06DEB243D66218C275F340BB /* Pods-TOFAS OBJECTIVE-C.debug.xcconfig */,
+				4761C1559E9F4FC51DF74F5D /* Pods-TOFAS OBJECTIVE-C.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A41074B42023B6C4656AF7E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				390B505C224A71C5F524B4F1 /* Pods_TOFAS_OBJECTIVE_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C54A7E2B6236B10064DEB2 /* TOFAS OBJECTIVE-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C54A982B6236B20064DEB2 /* Build configuration list for PBXNativeTarget "TOFAS OBJECTIVE-C" */;
+			buildPhases = (
+				B40E1363AB2BD9D63CC62CAE /* [CP] Check Pods Manifest.lock */,
+				04C54A7B2B6236B10064DEB2 /* Sources */,
+				04C54A7C2B6236B10064DEB2 /* Frameworks */,
+				04C54A7D2B6236B10064DEB2 /* Resources */,
+				CA486FD0548B6C43A39EA4E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOFAS OBJECTIVE-C";
+			productName = "TOFAS OBJECTIVE-C";
+			productReference = 04C54A7F2B6236B10064DEB2 /* TOFAS OBJECTIVE-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C54A772B6236B10064DEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					04C54A7E2B6236B10064DEB2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 04C54A7A2B6236B10064DEB2 /* Build configuration list for PBXProject "TOFAS OBJECTIVE-C" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C54A762B6236B10064DEB2;
+			productRefGroup = 04C54A802B6236B10064DEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C54A7E2B6236B10064DEB2 /* TOFAS OBJECTIVE-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C54A7D2B6236B10064DEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C54A922B6236B20064DEB2 /* LaunchScreen.storyboard in Resources */,
+				04C54A8F2B6236B20064DEB2 /* Assets.xcassets in Resources */,
+				040E17832B627ECD00E7AE94 /* MainTableViewCell.xib in Resources */,
+				04C54A8D2B6236B10064DEB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B40E1363AB2BD9D63CC62CAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TOFAS OBJECTIVE-C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA486FD0548B6C43A39EA4E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TOFAS OBJECTIVE-C/Pods-TOFAS OBJECTIVE-C-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TOFAS OBJECTIVE-C/Pods-TOFAS OBJECTIVE-C-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TOFAS OBJECTIVE-C/Pods-TOFAS OBJECTIVE-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C54A7B2B6236B10064DEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C54AA22B6239320064DEB2 /* APICall.m in Sources */,
+				04C54A8A2B6236B10064DEB2 /* ViewController.m in Sources */,
+				04C54A842B6236B10064DEB2 /* AppDelegate.m in Sources */,
+				04C54AA82B623EDD0064DEB2 /* TableViewModel.m in Sources */,
+				04C54AAD2B6241860064DEB2 /* PostModel.m in Sources */,
+				04C54A952B6236B20064DEB2 /* main.m in Sources */,
+				040E17822B627ECD00E7AE94 /* MainTableViewCell.m in Sources */,
+				04C54A872B6236B10064DEB2 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04C54A8B2B6236B10064DEB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C54A8C2B6236B10064DEB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C54A902B6236B20064DEB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C54A912B6236B20064DEB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C54A962B6236B20064DEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C54A972B6236B20064DEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C54A992B6236B20064DEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DEB243D66218C275F340BB /* Pods-TOFAS OBJECTIVE-C.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U675FN2PY2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TOFAS OBJECTIVE-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "murat.com.TOFAS-OBJECTIVE-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C54A9A2B6236B20064DEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4761C1559E9F4FC51DF74F5D /* Pods-TOFAS OBJECTIVE-C.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U675FN2PY2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TOFAS OBJECTIVE-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "murat.com.TOFAS-OBJECTIVE-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C54A7A2B6236B10064DEB2 /* Build configuration list for PBXProject "TOFAS OBJECTIVE-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C54A962B6236B20064DEB2 /* Debug */,
+				04C54A972B6236B20064DEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C54A982B6236B20064DEB2 /* Build configuration list for PBXNativeTarget "TOFAS OBJECTIVE-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C54A992B6236B20064DEB2 /* Debug */,
+				04C54A9A2B6236B20064DEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C54A772B6236B10064DEB2 /* Project object */;
+}
